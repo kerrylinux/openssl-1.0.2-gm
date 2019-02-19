@@ -6,5 +6,5 @@ based on openssl-1.0.2q
 config on Ubuntu 18.04.1 LTS x86_64
 
 ```shell
-./config shared -fPIC
+./config shared -fPIC -DOPENSSL_NO_STATIC_ENGINE
 ```
